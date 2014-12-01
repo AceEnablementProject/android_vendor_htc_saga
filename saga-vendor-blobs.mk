@@ -74,5 +74,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/saga/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/saga/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-    vendor/htc/saga/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/saga/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/htc/saga/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
