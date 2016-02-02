@@ -38,13 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/htc/saga/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/saga/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/saga/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/htc/saga/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/htc/saga/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-    vendor/htc/saga/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/htc/saga/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/htc/saga/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/saga/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/htc/saga/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/saga/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/saga/proprietary/lib/hw/camera.vendor.msm7x30.so:/system/lib/hw/camera.vendor.msm7x30.so \
@@ -54,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
     vendor/htc/saga/proprietary/lib/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
     vendor/htc/saga/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/saga/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/htc/saga/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/saga/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/saga/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
@@ -67,12 +62,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/saga/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/saga/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/htc/saga/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/htc/saga/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/htc/saga/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/htc/saga/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/saga/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/saga/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/saga/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-    vendor/htc/saga/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/saga/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
+# Adrenos
+PRODUCT_COPY_FILES += \
+    vendor/htc/saga/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/htc/saga/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/htc/saga/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/htc/saga/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/saga/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/htc/saga/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/htc/saga/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/htc/saga/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/htc/saga/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/htc/saga/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/htc/saga/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/htc/saga/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/htc/saga/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/htc/saga/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/htc/saga/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
